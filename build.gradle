@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+group = 'com.radhe'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile group: 'org.projectlombok' , name: 'lombok', version: '1.16.20'
+}
